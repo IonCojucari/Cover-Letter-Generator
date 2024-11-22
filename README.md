@@ -14,7 +14,7 @@ Follow these steps to install the extension unpacked into your Chrome browser:
 ### Step 1: Download the Repository
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Cover-Letter-Generator.git
+   git clone https://github.com/IonCojucari/Cover-Letter-Generator.git
    ```
 2. Navigate to the project folder:
    ```bash

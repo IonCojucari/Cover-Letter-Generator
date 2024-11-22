@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivation Letter Generator</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <h2>Generate Motivation Letter</h2>
+    
+    <!-- Language Selection -->
+    <div class="field-group">
+        <label for="languageSelect">Choose Language:</label>
+        <div class="select-wrapper">
+            <select id="languageSelect">
+                <option value="english">English</option>
+                <option value="french">French</option>
+            </select>
+        </div>
+    </div>
+    
+    <!-- CV Upload Section -->
+    <div class="field-group">
+        <label for="cvUpload">Upload CV (PDF):</label>
+        <label class="upload-btn" for="cvUpload">
+            <input type="file" id="cvUpload" accept="application/pdf">
+            <span>Upload CV</span>
+        </label>
+        <!-- Display selected CV file name -->
+        <div id="cvFileName" class="file-name"></div>
+        <div id="uploadSuccess" class="success-message">Upload successful!</div>
+    </div>
+    
+    <!-- Generate Button -->
+    <button id="GenerateMotivationLetter">Generate Motivation Letter</button>
+    <div id="generationSuccess" class="success-message">Generation successful!</div>
+
+    <!-- Loader Overlay -->
+    <div id="loaderOverlay">
+        <div class="loader"></div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

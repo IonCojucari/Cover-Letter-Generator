@@ -46,6 +46,3 @@ Feel free to fork this repository, submit pull requests, or report issues. Contr
 
 ## License
 This project is licensed under the MIT License. See `LICENSE` for details.
-```
-
-This updated version includes the instruction to visit the job description page and ensures the extension works seamlessly. Let me know if you need further tweaks!
